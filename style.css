@@ -1,6 +1,6 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #144480;
+    --card-front-color:black;
     --card-back-color: white;
 }
 
@@ -80,32 +80,38 @@ body {
 
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
-    background-color: rgba(0, 244, 191, 0.2);
+    background-color: black;
     border: 4px solid green;
 }
 
 footer {
     background-color: black;
-    color: yellowgreen;
+    color: white;
+    font-size: larger;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2rem;
+    height: 3rem;
     filter: drop-shadow(1px 1px 20px rgb(10, 248, 46));
     border-radius: 10px;
     font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 footer p {
     text-align: center;
     font-size: larger;
     margin-top: 0.5rem;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 @media (max-width: 560px) {
     
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
+        background: url('bg-mobile.webp'), no-repeat cover;
     }
 
     .cartao {
@@ -122,8 +128,10 @@ footer p {
 }
 
 h1{
-    color: green;
+    color: white;
     font-size: larger;
     text-align: center;
     font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
 }
