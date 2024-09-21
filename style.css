@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 4rem;
     gap: 3rem;
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px purple;
 }
 
 .cartao {
@@ -23,7 +23,7 @@ body {
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px purple;
 }
 
 .cartao__conteudo {
