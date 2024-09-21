@@ -32,7 +32,7 @@ body {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px rgb(149, 0, 255);
 }
 
 .cartao__conteudo h3 {
