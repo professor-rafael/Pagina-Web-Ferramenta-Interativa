@@ -86,7 +86,7 @@ body {
 
 footer {
     background-color: black;
-    color: white;
+    color: blueviolet;
     font-size: larger;
     position: fixed;
     bottom: 0;
@@ -128,7 +128,7 @@ footer p {
 }
 
 h1{
-    color: white;
+    color: blueviolet;
     font-size: larger;
     text-align: center;
     font-family: monospace;
