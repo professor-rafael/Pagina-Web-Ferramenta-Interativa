@@ -45,7 +45,7 @@ body {
     border-radius: 0.6rem;
     font-size: 1vw;
     backface-visibility: hidden;
-    box-shadow: 1px 1px 20px yellow;
+    box-shadow: 1px 1px 20px rgb(179, 0, 255);
 }
 
 .cartao__conteudo p {
@@ -86,7 +86,7 @@ body {
 
 footer {
     background-color: black;
-    color: blueviolet;
+    color: blueviolet;;
     font-size: larger;
     position: fixed;
     bottom: 0;
@@ -188,3 +188,135 @@ h1{
       transform: rotate(0deg);
     }
   }
+
+
+
+  /* From Uiverse.io by elijahgummer */ 
+.radio {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .radio > input {
+    position: absolute;
+    appearance: none;
+  }
+  
+  .radio > label {
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .radio > label > svg {
+    fill: #666;
+    transition: fill 0.3s ease;
+  }
+  
+  .radio > label::before,
+  .radio > label::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #ff9e0b;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0);
+    transition:
+      transform 0.4s ease,
+      opacity 0.4s ease;
+    animation: particle-explosion 1s ease-out;
+  }
+  
+  .radio > label::before {
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+  }
+  
+  .radio > label::after {
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+  }
+  
+  .radio > label:hover::before,
+  .radio > label:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.5);
+  }
+  
+  .radio > label:hover {
+    transform: scale(1.2);
+    animation: pulse 0.6s infinite alternate;
+  }
+  
+  /* Star glow and animation on hover */
+  .radio > label:hover > svg {
+    fill: #ff9e0b;
+    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    animation: shimmer 1s ease infinite alternate;
+  }
+  
+  .radio > input:checked + label > svg {
+    fill: #ff9e0b;
+    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    animation: pulse 0.8s infinite alternate;
+  }
+  
+  .radio > input:checked + label ~ label > svg,
+  .radio > input:checked + label > svg {
+    fill: #ff9e0b; /* Highlight the stars */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes particle-explosion {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+  }
+  
+  @keyframes shimmer {
+    0% {
+      filter: drop-shadow(0 0 10px rgba(255, 158, 11, 0.5));
+    }
+    100% {
+      filter: drop-shadow(0 0 20px rgba(255, 158, 11, 1));
+    }
+  }
+  
+  .radio > input:checked + label:hover,
+  .radio > input:checked + label:hover ~ label {
+    fill: #e58e09;
+  }
+  
+  .radio > label:hover,
+  .radio > label:hover ~ label {
+    fill: #ff9e0b;
+  }
+  
+  .radio input:checked ~ label svg {
+    fill: #ffa723;
+  }
+  
