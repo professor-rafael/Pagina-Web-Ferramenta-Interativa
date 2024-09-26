@@ -17,7 +17,7 @@ criaCartao(
 )
 
 criaCartao(
-    'Palmeiras',
-    'Quantos titulo mundial o palmeiras têm?',
-    'Nenhum 🤣🤣🤣'
+    'Ganhando o Mundo',
+    'Quem participou do Programa Ganhado o mundo em 2024?',
+    'Eloisa'
 )
