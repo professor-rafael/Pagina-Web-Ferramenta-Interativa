@@ -19,5 +19,5 @@ criaCartao(
 criaCartao(
     'Ganhando o Mundo',
     'Quem participou do Programa Ganhado o mundo em 2024?',
-    'Eloisa'
+    'Eloisa Amorim dos Santos'
 )
