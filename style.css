@@ -1,6 +1,6 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: white;
+    --card-front-color:black;
     --card-back-color: white;
 }
 
@@ -86,7 +86,7 @@ body {
 
 footer {
     background-color: black;
-    color: mustard;;
+    color: blueviolet;;
     font-size: larger;
     position: fixed;
     bottom: 0;
@@ -128,7 +128,7 @@ footer p {
 }
 
 h1{
-    color: mustard;
+    color: whitesmoke;
     font-size: larger;
     text-align: center;
     font-family: monospace;
@@ -142,7 +142,7 @@ h1{
     left: calc(100% - 20px);
     width: 50px;
     height: 50px;
-    background: green;
+    background: purple;
     border-radius: 50%;
     animation: ball-move8234 3s ease-in-out 1s infinite alternate;
   }
@@ -191,7 +191,7 @@ h1{
 
 
 
-  /* From Uiverse.io by elijahgummer */ 
+
 .radio {
     display: flex;
     justify-content: center;
@@ -319,8 +319,8 @@ h1{
   .radio input:checked ~ label svg {
     fill: #ffa723;
   }
-
-
+  
+  /* From Uiverse.io by andrew-demchenk0 */ 
 .container {
   display: flex;
   flex-direction: row;
@@ -542,4 +542,3 @@ h1{
   left: 81%;
   line-height: 6.2px;
 }
-

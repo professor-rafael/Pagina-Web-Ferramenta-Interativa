@@ -17,7 +17,7 @@ criaCartao(
 )
 
 criaCartao(
-    'Ganhando o Mundo',
-    'Quem participou do Programa Ganhado o mundo em 2024?',
-    'Eloisa Amorim dos Santos 👏👏👏'
+    'Código',
+    'O que è ?',
+    '"O código é poesia lógica que transforma ideias em realidade."'
 )
