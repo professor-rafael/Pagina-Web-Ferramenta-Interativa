@@ -7,7 +7,7 @@ criaCartao(
 criaCartao(
     'Informática',
     'Qual o melhor canal para aprender informática',
-    '@rasinformática'
+    'RasinformticA'
 )
 
 criaCartao(
