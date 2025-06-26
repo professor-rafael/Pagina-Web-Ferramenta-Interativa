@@ -1,5 +1,5 @@
 criaCartao(
-    'Felicidades',
+    'Felicidade',
     'O que precisa para ser feliz?',
     ' Fazer o que gosta!!!'
 )
@@ -7,12 +7,12 @@ criaCartao(
 criaCartao(
     'Informática',
     'Qual o melhor canal para aprender informática',
-    'RasinformticA'
+    'RasinformaticA'
 )
 
 criaCartao(
     'Qual é a melhor turma do CERB',
-    'A que mais se dedica as aulas do Prof. Rafael?',
+    'A que mais se dedica nas aulas do Prof. Rafael?',
     'Estou em dúvida'
 )
 
